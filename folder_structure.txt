@@ -1,0 +1,39 @@
+src/
+├── components/
+│   ├── Auth/
+│   │   ├── Login.js
+│   │   └── Register.js
+│   ├── AdminRoute.js
+│   ├── ErrorBoundary.js
+│   ├── PrivateRoute.js
+│   └── Navbar.js
+├── context/
+│   └── AuthContext.js
+├── pages/
+│   ├── Admin/
+│   │   └── index.js
+│   ├── Dashboard/
+│   │   └── index.js
+│   ├── Gear/
+│   │   └── index.js
+│   ├── Profile/
+│   │   └── index.js
+│   ├── Routes/
+│   │   └── index.js
+│   ├── Team/
+│   │   └── index.js
+│   ├── Training/
+│   │   └── index.js
+│   ├── Calendar/
+│   │   └── index.js
+│   ├── Home.js
+│   └── StravaCallback.js
+├── utils/
+│   ├── analytics.js
+│   ├── rateLimiter.js
+│   ├── sanitize.js
+│   └── stravaAuth.js
+├── App.js
+├── firebase.js
+├── index.js
+└── index.css
